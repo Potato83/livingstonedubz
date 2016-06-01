@@ -1,0 +1,204 @@
+
+
+.center{
+	text-align: center;
+	margin-top: 0;
+	
+}
+
+.padder{
+	width: 100%;
+	height: 20px;
+	/*background: red;*/
+}
+
+/*#soundcloud-hero{
+	height: 100%;
+	height: 100vh;
+	width: 100%;
+	background: #141212;
+	background: #141414;
+	background: #090909;
+	position: relative;
+	z-index: 2;
+	top: 100vh;
+}*/
+
+
+/*
+#soundcloud-embed{
+	width: 100%;
+	position: relative;
+	background: black;
+	background: #141212;
+	background: #090909;
+	background: blue;
+	height: 50vh;
+	padding: 20vh 25vw; 
+}*/
+
+/*#soundcloud-embed-test-fafafafafaf{
+	width: 100%;
+	position: absolute;
+	background: black;
+	background: #141212;
+	background: #090909;
+	height: 0;
+}*/
+
+#soundcloud-hero-test{
+	height: 100%;
+	height: 100vh;
+	width: 100%;
+	background: url('../../assets/img/frenzy.jpg');
+	background-size: cover;
+	background: white;
+	display: table;
+	position: relative;
+	z-index: 2;
+	top: 100vh;
+}
+
+	#test-div{
+		width: 30%; 
+		background: transparent;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	}
+
+	#test-div56{
+		width: 50%; 
+		/* wider at smaller screen sizes */
+		height: 420px;
+		background: transparent;
+    position: absolute;
+    top: 34vh;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+	}
+
+
+	#test-div56 > iframe{
+		max-height: 300px;
+	}
+
+
+
+@media (min-height: 760px){
+	#test-div{
+		height: 50%;
+		/*background: red;*/
+		
+	}
+}
+
+@media (max-height: 759px){
+		#test-div{
+		margin-top: 75px;
+	}
+}
+
+@media (max-width: 1025px){
+	#test-div{
+		width: 50%;
+	}
+}
+
+@media (max-width: 585px){
+	#test-div{
+		width: 80%;
+		margin-top: 75px;
+	}
+}
+
+@media  (max-width: 361px){
+	#test-div{
+		width: 80%;
+		margin-top: 0px;
+		/*background-color: red;*/
+	}
+
+}
+
+@media (max-width: 850px){
+	#soundcloud-hero-test{
+		background-position: -80% 0%;
+	}
+}
+
+
+/*@media (max-height: 850px){
+	#test-div{
+		width: 40%;
+		
+		position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+	}
+}*/
+
+
+
+#soundcloud-embed-test-xxx{
+	/*max-width: 80%;*/
+	/*position: absolute;*/
+	/*left: 50%;*/
+	/*-webkit-transform: translateX(-50%);*/
+	/*top: 50%;*/
+	/*transform: translateY(50%);*/
+	/*transform: translateX(50%);*/
+	/*background: red;*/
+	
+	/*margin: 0 auto 0;*/
+	/*position: relative;
+	top: 0;
+	bottom: 0;*/
+	
+	/*horizontal-align: middle;*/
+}
+
+#soundcloud-wrapper{
+	margin: 0 auto;
+	display: table-cell;
+	vertical-align: middle;
+	width: 30%;
+}
+
+.semi-fix{
+	height: 100%;
+	height: 100vh;
+	width: 100%;
+	
+	/*display: table;*/
+	display: block;
+	z-index: 2;
+	
+	background: black;
+	/*opacity: 0.5;*/
+	position: fixed !important;
+	top: 0;
+	z-index: 10;
+
+}
+
+@media(max-width: 767px){
+	#soundcloud-embed{
+		padding: 20vh 10vw;
+	}
+}
+
+@media(max-width: 420px){
+	#soundcloud-embed{
+		padding: 5vh 4vw 25vh;
+	}
+}

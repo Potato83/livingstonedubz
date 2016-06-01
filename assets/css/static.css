@@ -1,0 +1,417 @@
+#home-page{
+	height: 100%;
+	min-height: 100vh;
+	width: 100%;
+	background: white;
+	display: table;
+	position: fixed;
+	top: 0;
+}
+
+#hero-og{
+	text-align: center;
+	border: 1px solid;
+	position: relative;
+	top: -100px;
+	width: 85%;
+	margin: 5% auto 5%;
+}
+
+#main-short{
+	width: 100%;
+	height: 50%;
+	position: absolute;
+	left: 0px;
+	bottom: 280px;
+}
+
+#main-gif-short{
+	width: 110%;
+	height: 70%;
+	margin-left: -50px;
+	margin-right: -50px;
+}
+
+.social-links-og{
+	text-align: center;
+	width: 80%;
+	margin: 0 auto 6%;
+}
+
+.bookings-og{
+	text-align: center;
+}
+
+#bc-og{
+	position: relative;
+	bottom: 8px;
+}
+
+.tagger-cam{
+	display: inline-block;
+	
+	width: 300px;
+	left: 18%;
+	text-align: center;
+	margin-top: -20px;
+	z-index: 501;
+	position: absolute;
+}
+
+.tagger-vid{
+	display: inline-block;
+	
+	width: 300px;
+	right: 18%;
+	text-align: center;
+	margin-top: -20px;
+	z-index: 501;
+	position: absolute;
+}
+
+/* LARGE */
+
+@media (min-width: 1360px){ 
+
+	#hero,
+	#hero-og{
+		font-size: 160px; 
+		padding: 20px;
+
+	}
+
+	.social-links i,
+	.social-links-og i{
+	font-size: 40px;
+	
+	}	
+
+	.social-links-custom i{
+		font-size: 40px;
+	}
+
+	.badge,
+	.badge-x{
+		padding: 35px;
+	}	
+
+	.bandcamp img{	
+	height: 70px;
+	width: 70px;
+	}
+
+	.social{
+		background: white;
+		background: url('../../assets/img/Jaff-1b.gif');
+		background: url('../../assets/img/Jaff3.gif');
+	}
+
+	.social-links-custom{
+		/*top: 420px;*/
+		top: 70vh !important;
+		
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1359px){ 
+	
+#hero,
+	#hero-og{
+		font-size: 125px; 
+
+	}
+
+	.social-links i,
+	.social-links-og i{
+	font-size: 40px;
+	
+	}
+
+	.social-links-custom i{
+		font-size: 30px;
+	}
+
+	.badge,
+	.badge-x{
+		padding: 30px;
+	}	
+
+	.bandcamp img{	
+	height: 70px;
+	width: 70px;
+	}
+
+	.social{
+		background: pink;
+		background: url('../../assets/img/Jaff-1b.gif');
+		background: url('../../assets/img/Jaff3.gif');
+	}
+
+	.social-links-custom{
+		top: 70vh !important;
+	
+	}
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+	#hero,
+	#hero-og{
+		font-size: 85px; 
+		margin: 1% auto 5%;
+	}
+
+	.social-links i,
+	.social-links-og i{
+	font-size: 40px;
+	
+	}
+
+	.badge,
+	.badge-x{
+		padding: 10px;
+	}	
+
+	.bandcamp img{	
+	height: 70px;
+	width: 70px;
+	}
+
+.spacer{
+	display: inline-block;
+	width: 55px;
+	background: white;
+	height: 75px;
+	padding: 0;
+	margin-left: -10px;
+}
+
+.spacer-bc{
+	display: inline-block;
+	width: 15px;
+	background: white;
+	height: 75px;
+	padding: 0;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+
+.giffy-bc{
+	width: 70px;
+}
+
+.social-links-custom{
+		top: 70vh !important;
+	}
+}
+
+
+@media(max-width: 767px){
+
+	#hero,
+	#hero-og{
+		font-size: 40px; 
+		width: 80%;
+		margin: 100px auto 50px;
+		padding: 12px;
+	}
+	
+	.social-links-og img, .social-links-og i{
+	font-size: 25px;
+	margin: 50px auto 50px;
+	
+	}
+
+	.social-links,
+	.social-links-og {
+		width: 90%;
+	}
+
+	.badge,
+	.badge-x{
+		padding: 8px;
+	}	
+
+	.bandcamp img{	
+	height: 50px;
+	width: 50px;
+	}
+	
+	.bookings-og{
+		margin: 50px auto 0;
+	}
+
+	#main{
+		bottom: 200px;
+	}
+
+	#main-gif{
+		bottom: 1000px;
+		height: 80%;
+		margin-top: -80px;
+	}
+
+	.social-links-custom{
+		top: 420px;
+		top: 60vh;		
+	}
+
+	#bc-og{	
+	bottom: 4px;
+	}	
+
+	.spacer-bc{
+		display: inline-block;
+		width: 23px;
+		background: white;
+		height: 70px;
+		padding: 0;
+		margin-left: -26px;
+		margin-right: -25px;
+	}
+
+	.spacer-fb{
+		display: inline-block;
+		width: 13px;
+		background: white;
+		height: 70px;
+		padding: 0;
+		margin-left: -23px;
+	}
+
+	.giffy-bc{
+		width: 60px;
+	}
+
+	#bandcamp{
+		margin-left: -25px;
+		margin-right: -12px;
+		position: relative;
+		left: -8px;
+	}
+}
+
+
+@media(max-width: 420px){
+	#hero,
+	#hero-og{
+	font-size: 35px;
+		width: 85%;
+	}
+
+	#bc-og{	
+	bottom: 5px;
+	}
+
+	.giffy-bc{
+		width: 54px;
+	}
+
+}
+
+/* End max-width 420px */
+
+@media screen and (max-width: 774px) and (orientation: landscape){
+	#main{
+		width: 50%;
+		height: 100%;
+		margin: auto;
+		bottom: 25%;
+	}
+
+	#main-gif{
+		width: 25%;
+		margin-left: -100px;
+	}
+
+	.social-links-custom {
+		left: 75%;
+	}
+
+	.special-landscape{
+		width: 50%;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		background: white;
+		z-index: 1;
+	}
+	.social {
+	list-style: none;
+	background: white;
+	margin-left: 2px;  /*corresponds to 10px bc offset*/ 
+	width: 280px; /* depends! */
+	height: 35px;
+	padding: 0;
+	margin-top: -100px;
+	}
+
+	.giffy{
+	width: 35px;
+	height: 35px;
+	display: inline-block;
+	padding: 0;
+	margin-top: -40px;
+	}
+
+	.spacer{
+		display: inline-block;
+		width: 15px;
+		background: white;
+		height: 70px;
+		padding: 0;
+		margin-left: -10px;
+	}
+
+	.spacer-bc{
+		display: inline-block;
+		width: 11px;
+		background: white;
+		height: 70px;
+		padding: 0;
+		margin-left: -29px;
+		margin-right: -60px;
+	}
+
+	.spacer-fb{
+		display: inline-block;
+		width: 0px;
+		background: white;
+		height: 70px;
+		padding: 0;
+		margin-left: -53px;
+		margin-right: -10px;
+	}
+
+	.ico-border{
+		width: 35px;
+		position: relative;
+		top: -49px;
+		right: 6px; 
+	}
+
+	.giffy-bc{
+		width: 54px;
+	}
+
+	#bandcamp{
+		margin-left: -16px;
+		position: relative;
+		left: -13px;
+	}
+
+	#test-div{
+		width: 80%;
+	}
+
+	#test-div > iframe{
+		max-height: 100px;
+	}
+
+	.event-image{
+		max-width: 50%;
+	}
+	
+}
