@@ -65,7 +65,7 @@ $( document ).ready(function() {
 		$(myFrame).addClass('embed-sneak');
 		
 		$('#fade-out').fadeIn(6500).removeClass('hide').promise().done(function(){
-			setTimeout(headerFade, 2250);
+			setTimeout(headerFade, 1750);
 		});
 		
 });
@@ -83,13 +83,15 @@ function fadeBiz(){
 
 function outIn(){
 			$(myFrame).addClass('embed-center').promise().done(function(){
-				setTimeout(scrollBud, 1250);
+				setTimeout(scrollBud, 1000);
 			});	
 }
 
 function scrollBud(){
 	$('#scroller-1').fadeIn(4000).removeClass('hide').promise().done(function(){
 		$(this).addClass('flicker');
+		$('body').removeClass('no-scroll').addClass('scroll-fix');
+		$('#embed-div').addClass('scroll-refix');
 	});
 }
 

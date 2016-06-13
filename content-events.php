@@ -43,12 +43,12 @@ $bandpage = get_field('bandpage');
         console.log("Failed to initialize sdk");
     }
   });
-});  
+  
 </script>
 
   <div class="scroller contact-scroller visual-fade">      
     <div class="link-scroll">
-      <a href="#contact" id="3" ><i class="fa fa-chevron-down center"></i></a>
+      <a href="#contact" id="4" ><i class="fa fa-chevron-down center"></i></a>
     </div>      
   </div><!-- .scroller -->
 

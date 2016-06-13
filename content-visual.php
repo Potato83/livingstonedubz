@@ -111,7 +111,7 @@ $videos = get_field('videos');
 
 	<div class="scroller events-scroller visual-fade">			
 		<div class="link-scroll">
-			<a href="#events" id="2" ><i class="fa fa-chevron-down center"></i></a>
+			<a href="#events" id="3" ><i class="fa fa-chevron-down center"></i></a>
 		</div>			
 	</div><!-- .scroller -->
 

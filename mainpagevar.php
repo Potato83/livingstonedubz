@@ -38,7 +38,7 @@ $embed_type = get_field('embed_type');
 
 <div id="fade-out" class="headline hide"><?php the_field('fading_headline'); ?></div>
 <!-- <button id="tast">TST</button> -->
-		<div id="embed-div">
+		<div id="embed-div" class="borders">
 			
 
       <?php 
@@ -72,9 +72,9 @@ $embed_type = get_field('embed_type');
 
     
 		
-		<div class="scroller visual-scroller">			
+		<div class="scroller mix-scroller">			
 			<div class="link-scroll hide" id="scroller-1">
-				<a href="#visual" id="1" ><i class="fa fa-chevron-down center"></i></a>
+				<a href="#mix" id="1" ><i class="fa fa-chevron-down center"></i></a>
 			</div>			
 		</div><!-- .scroller -->
 		
@@ -82,6 +82,7 @@ $embed_type = get_field('embed_type');
 		
 </section><!-- #home-page -->
 
+<?php get_template_part('content', 'mix'); ?>
 <?php get_template_part('content', 'visual'); ?>
 <?php get_template_part('content', 'events'); ?>
 <?php get_template_part('content', 'contact'); ?>

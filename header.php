@@ -16,6 +16,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 <link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>
 <meta name="google-site-verification" content="4pdieK71l6gT8BGGuHtVVRf2hcA4RVrRC-mBdqV-dlA" />
+<meta name="description" content="Living~Stone - Dj, Producer, Music Enthusiast, Dance floor instigator &amp; good sound aficionado, Montreal." >
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
@@ -39,6 +40,6 @@
 <![endif]-->
 </head>
 
-<body <?php body_class(); ?>>
+<body <?php body_class('no-scroll'); ?>>
 <div id="wptime-plugin-preloader"></div>
-<div class="main-content">
+<div class="main-content ">
