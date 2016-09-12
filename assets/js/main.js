@@ -64,7 +64,7 @@ $( document ).ready(function() {
 
 		$(myFrame).addClass('embed-sneak');
 		
-		$('#fade-out').fadeIn(6500).removeClass('hide').promise().done(function(){
+		$('#fade-out').fadeIn(5000).removeClass('hide').promise().done(function(){
 			setTimeout(headerFade, 1750);
 		});
 		
